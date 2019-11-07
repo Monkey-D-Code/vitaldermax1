@@ -25,7 +25,7 @@
         clip-path: polygon(17% 0%, 100% 0, 100% 100%, 0 100%, 0 10%);
     }
     .offer{
-        height: 42em;
+        height: 45em;
         display: grid;
         grid-template-columns: 1fr;
         clip-path: polygon(100% 0, 100% 100%, 20% 100%, 0 88%, 0 0);
