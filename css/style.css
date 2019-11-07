@@ -25,6 +25,7 @@ header h2{
     padding: 0.5em;
     letter-spacing: 0.5em;
     z-index: 999;
+    text-transform: uppercase;
     
 }
 
@@ -37,8 +38,37 @@ header h2{
 .product-image{
     position: absolute;
     top: 6em;
-    right: 40em;
+    right: 45em;
     height: 12em;
+}
+.plus{
+    font-size: 6.5em;
+    position: absolute;
+    top: 1em;
+    right: 50%;
+}
+.product-image-free{
+    position: absolute;
+    top: 6em;
+    right: 30em;
+    height: 12em;
+}
+.ribbon{
+    width: 6em;
+    
+    background-color: #FC5130;
+    position: absolute;
+    top: 7em;
+    right: 30em;
+    text-align: center;
+    padding:0.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+    transform: rotate(45deg);
+}
+.ribbon span{
+    margin: 0.4em;
 }
 
 .discount{
@@ -131,10 +161,30 @@ header h2{
     clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 75%, 0 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 25em;
+}
+
+.twin-products{
+    position: relative;
 }
 
 .product-img{
-    
+    height: 23em;
+    position: absolute;
+    top: 0;
+}
+
+.ribbon2{
+    left: 27em;
+    top : 2.5em;
+}
+
+
+.product-img-free{
+    height: 23em;
+    position: absolute;
+    top: 1em;
+    left: 10em;
 }
 
 .off{
@@ -263,3 +313,23 @@ footer h2{
     border-left: 1px solid #008AB6;
     border-right: 1px solid #008AB6;
 }
+
+.limited-quantity{
+    text-align: center;
+    margin: 0.3em;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

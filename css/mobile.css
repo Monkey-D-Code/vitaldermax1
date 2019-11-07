@@ -7,8 +7,34 @@
     .product-image{
         position: absolute;
         top: 4em;
-        right: 10em;
+        left: 2.5em;
         height: 8em;
+    }
+    .plus{
+        font-size: 5.5em;
+        position: absolute;
+        top: 0.8em;
+        right: 45%;
+    }
+    .product-image-free{
+        position: absolute;
+        top: 4em;
+        right: 2.5em;
+        height: 8em;
+    }
+    .ribbon{
+        width: 6em;
+        
+        background-color: #FC5130;
+        position: absolute;
+        top: 5em;
+        right: 1.5em;
+        text-align: center;
+        padding:0.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        vertical-align: middle;
+        transform: rotate(45deg);
     }
 
     header h2{
@@ -25,7 +51,8 @@
         clip-path: polygon(17% 0%, 100% 0, 100% 100%, 0 100%, 0 10%);
     }
     .offer{
-        height: 45em;
+        padding:0.3em;
+        height: 40em;
         display: grid;
         grid-template-columns: 1fr;
         clip-path: polygon(100% 0, 100% 100%, 20% 100%, 0 88%, 0 0);
@@ -46,8 +73,30 @@
     }
 
     .product-img{
-        width: 100%;
-        margin-top: 2em;
+        height: 8em;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .ribbon2{
+        left: 12em;
+        top : 1em;
+    }
+    .twin-products{
+        align-content: space-around;
+        margin-top:2em;
+    }
+    .plus2{
+        top: 1em;
+    
+    }
+    
+    .product-img-free{
+        height: 8em;
+        position: absolute;
+        top: 0em;
+        left:9em;
     }
     .off{
         font-size: 1.5em;
@@ -76,7 +125,7 @@
     }
 
     .timer h4{
-        font-size: 2em;
+        font-size: 1.9em;
     }
 
     footer{
@@ -88,6 +137,9 @@
     }
 
     .timer{
-        width: 90%;
+        width: 100%;
+    }
+    .timer p{
+        font-size: 1em;
     }
   }
