@@ -59,6 +59,7 @@
 
     .off3{
         font-size: 1.1em;
+        text-align: center;
     }
     .contact-form{
         width: 80%;
@@ -72,5 +73,21 @@
     }
     ::placeholder{
         font-size: 0.95em;
+    }
+
+    .timer h4{
+        font-size: 2em;
+    }
+
+    footer{
+        height: 17em;
+    }
+
+    footer h2{
+        font-size: 3em;
+    }
+
+    .timer{
+        width: 90%;
     }
   }
