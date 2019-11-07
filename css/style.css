@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro&display=swap');
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Advent Pro', sans-serif;
+    color: aliceblue;
+}
+header{
+    position: relative;
+}
+
+header h2{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #1E1A1D;
+    padding: 0.5em;
+    letter-spacing: 0.5em;
+    z-index: 999;
+    
+}
+
+.hero-image{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.product-image{
+    position: absolute;
+    top: 6em;
+    right: 40em;
+    height: 12em;
+}
+
+.discount{
+    width:8.5em;
+    height : 8.5em;
+    background-color: #E5F2C9;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    color: darkred;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 999;
+
+}
+.discount h4{
+    vertical-align: middle;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 3em;
+    
+}
+
+.information{
+    height: 30em;
+    width : 80vw;
+    background-color: #171717;
+    display: block;
+    margin: auto;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    padding: 1em;
+    clip-path: polygon(15% 0%, 100% 0, 100% 100%, 0 100%, 0 25%);
+}
+
+.face-image{
+    height: 17em;
+    width: 17em;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.prod-tag{
+    background-color: #fff;
+    width: fit-content;
+    padding: 0.7em;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 0.3em;
+}
+
+.prod-tag p{
+    color: #008AB6 !important;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.prod-name{
+    color: #008AB6;
+    font-size: 3em;
+}
+
+.message{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 0.2em;
+}
+
+.offer{
+    
+    
+    width : 80vw;
+    background-color: #171717;
+    display: block;
+    margin: auto;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    padding: 1em;
+    clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 75%, 0 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-img{
+    
+}
+
+.off{
+    text-align: center;
+    font-size: 2.3em;
+    color: #FAFF00;
+    margin : 1em;
+    border-top : 1px solid #FAFF00;
+    border-bottom : 1px solid #FAFF00;
+    padding: 0.1em;
+}
+
+.off2{
+    color: #FC5130;
+    border : 1px solid #FAFF00;
+    padding: 0.7em;
+    border-radius: 0.3em;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    width: 90%;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+
+.off3{
+    font-size: 1.3em;
+    margin-top:1em;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.contact-form{
+    height: 30em;
+    width: 40vw;
+    background-color: #171717;
+    display: block;
+    margin: auto;
+    padding:1em;
+    border-radius: 0.3em;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    
+}
+
+.contact-form form{
+    margin-top: 4em;
+}
+
+.contact-form button{
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 0.3em;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.4em;
+    background-color: black;
+    border: none;
+    border-radius: 0.3em;
+    color: #FAFF00;
+    font-weight: bold;
+}
+.contact-form input{
+    display: block;
+    margin: auto;
+    padding: 0.5em;
+    width: 70%;
+    font-size: 1.5em;
+    height: 2em;
+    font-family: 'Advent Pro', sans-serif;
+    outline: none;
+    border-radius: 0.2em;
+    border: 1px solid #008AB6;
+    color: #FC5130;
+    
+    text-align: center;
+    
+}
+::placeholder{
+    color: #008AB6;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.2em;
+}
