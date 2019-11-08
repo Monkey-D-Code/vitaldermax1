@@ -9,7 +9,7 @@ const Seconds = document.querySelectorAll(".timer .secs h4");
 // get initial count value
 const event_date = document.getElementsByClassName("timer")[0].getAttribute("data-date");
 
-const countDown = ()=>{
+function countDown (){
     const today = new Date();
     const eventDay = new Date(event_date);
     const remainingTimeMs = eventDay.getTime() - today.getTime();
@@ -22,16 +22,16 @@ const countDown = ()=>{
     minutes%=60;
     remainingTimeSecs%=60;
 
-    Days.forEach(dayDiv=>{
+    Days.forEach(function(dayDiv){
         dayDiv.innerHTML = days;
     });
-    Hours.forEach(hourDiv=>{
+    Hours.forEach(function(hourDiv){
         hourDiv.innerHTML = hours;
     });
-    Minutes.forEach(minsDiv=>{
+    Minutes.forEach(function(minsDiv){
         minsDiv.innerHTML = minutes;
     });
-    Seconds.forEach(secsDiv=>{
+    Seconds.forEach(function(secsDiv){
         secsDiv.innerHTML = remainingTimeSecs;
     });
 

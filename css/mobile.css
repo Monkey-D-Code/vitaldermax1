@@ -49,13 +49,20 @@
     }
     .information{
         clip-path: polygon(17% 0%, 100% 0, 100% 100%, 0 100%, 0 10%);
+        -moz-clip-path: polygon(17% 0%, 100% 0, 100% 100%, 0 100%, 0 10%);
+        -webkit-clip-path: polygon(17% 0%, 100% 0, 100% 100%, 0 100%, 0 10%);
     }
     .offer{
         padding:0.3em;
-        height: 40em;
+        padding-bottom: 0;
+        height: fit-content;
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 4fr 5fr 0.5fr;
+        
         clip-path: polygon(100% 0, 100% 100%, 20% 100%, 0 88%, 0 0);
+        -moz-clip-path: polygon(100% 0, 100% 100%, 20% 100%, 0 88%, 0 0);
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 20% 100%, 0 88%, 0 0);
     }
     .discount h4{
         font-size: 2em;
@@ -107,12 +114,13 @@
     }
 
     .off3{
-        font-size: 1.1em;
+        padding-top: 0.5em;
+        font-size: 1.2em;
         text-align: center;
     }
     .contact-form{
         width: 80%;
-        height: 20em;
+        height: 22em;
     }
     .contact-form form{
         margin-top: 1em;

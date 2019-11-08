@@ -106,6 +106,8 @@ header h2{
     margin-bottom: 1em;
     padding: 1em;
     clip-path: polygon(15% 0%, 100% 0, 100% 100%, 0 100%, 0 25%);
+    -moz-clip-path: polygon(15% 0%, 100% 0, 100% 100%, 0 100%, 0 25%);
+    -webkit-clip-path: polygon(15% 0%, 100% 0, 100% 100%, 0 100%, 0 25%);
 }
 
 .face-image{
@@ -159,6 +161,8 @@ header h2{
     margin-bottom: 1em;
     padding: 1em;
     clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 75%, 0 0);
+    -moz-clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 75%, 0 0);
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 75%, 0 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 25em;
@@ -229,7 +233,14 @@ header h2{
     padding:1em;
     border-radius: 0.3em;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     
+}
+.stock{
+    text-align: center;
+    color: #FC5130;
+    font-weight: bold;
 }
 
 .contact-form form{
