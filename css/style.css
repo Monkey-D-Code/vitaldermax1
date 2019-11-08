@@ -320,9 +320,9 @@ footer h2{
     text-transform: uppercase;
     font-size: 4em;
     letter-spacing: 0.1em;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 0.7s ease-in-out infinite alternate;
+    -moz-animation: glow 0.7s ease-in-out infinite alternate;
+    animation: glow 0.7s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
