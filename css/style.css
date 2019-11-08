@@ -365,5 +365,17 @@ footer h2{
 }
 
 .price-new{
-    color: lightgreen;
+    
+    -webkit-animation: newpriceglow 0.7s ease-in-out infinite alternate;
+    -moz-animation: newpriceglow 0.7s ease-in-out infinite alternate;
+    animation: newpriceglow 0.7s ease-in-out infinite alternate;
 }
+
+@keyframes newpriceglow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8ee600, 0 0 40px #8ee600, 0 0 50px #8ee600, 0 0 60px #8ee600, 0 0 70px #8ee600;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #48d82b, 0 0 40px #48d82b, 0 0 50px #48d82b, 0 0 60px #48d82b, 0 0 70px #48d82b, 0 0 80px #48d82b;
+    }
+  }
