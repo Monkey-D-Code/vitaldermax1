@@ -344,3 +344,26 @@ footer h2{
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
+
+.price{
+    display: block;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
+    text-align: center;
+    
+}
+
+.price h2{
+    font-size:3em;
+}
+
+.price-old{
+    text-decoration: line-through;
+    color: #FC5130;
+}
+
+.price-new{
+    color: lightgreen;
+}
